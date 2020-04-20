@@ -15,7 +15,7 @@
             <asp:CreateUserWizardStep runat="server" ID="RegisterUserWizardStep">
                 <ContentTemplate>
                     <p class="message-info">
-                        Passwords are required to be a minimum of <%: Membership.MinRequiredPasswordLength %> characters in length.
+                        Passwords are  required to be a minimum of <%: Membership.MinRequiredPasswordLength %> characters in length.
                     </p>
 
                     <p class="validation-summary-errors">
